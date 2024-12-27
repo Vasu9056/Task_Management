@@ -12,8 +12,6 @@ void main() async {
   await Hive.initFlutter();
   Hive.registerAdapter(UserPreferencesAdapter());
   await Hive.openBox<UserPreferences>('userPreferences');
-
-  final dbHelper=DatabaseHelper();
   runApp(
     ProviderScope(
       child: TaskManagerApp(),
