@@ -1,16 +1,48 @@
-# task_management
 
-A new Flutter project.
+# Task Management
 
-## Getting Started
+A Flutter project for managing tasks.
 
-This project is a starting point for a Flutter application.
+## Prerequisites
 
-A few resources to get you started if this is your first Flutter project:
+1. Install **Flutter SDK** from [here](https://docs.flutter.dev/get-started/install).
+2. Use an IDE like **Android Studio** or **VS Code** with Flutter plugins.
+3. Ensure **Git** is installed.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## Setup and Run
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone the repository:
+   ```bash
+   git clone <repository_url>
+   ```
+
+2. Navigate to the project folder:
+   ```bash
+   cd task_management
+   ```
+
+3. Install dependencies:
+   ```bash
+   flutter pub get
+   ```
+
+4. Check setup using:
+   ```bash
+   flutter doctor
+   ```
+
+5. Connect a device (emulator or physical).
+
+6. Run the project:
+   ```bash
+   flutter run
+   ```
+
+7. (Optional) Build for production:
+   - Android: `flutter build apk`
+   - iOS: `flutter build ios`
+
+## Troubleshooting
+
+- Run `flutter clean` and then `flutter pub get` if issues occur.
+- Check [Flutter Documentation](https://docs.flutter.dev/) for help.
